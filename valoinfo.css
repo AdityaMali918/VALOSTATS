@@ -1,0 +1,365 @@
+@font-face {
+    font-family: myfont;
+    src: url(Valorant.ttf);
+}
+
+* {
+    font-family: myfont;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    height: 54px;
+    margin-top: 0;
+}
+
+.logo img {
+
+    width: 118px;
+    height: 71px;
+
+}
+
+/* .logo {
+    /* border: 4px solid red;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red; 
+    */
+
+.nav-list {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    /* border: 5px solid red; */
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    /* border-bottom: 5px solid red; */
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 62px;
+}
+
+.background {
+    background: black;
+    background-size: cover;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    width: 81px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    /* background-color: rgb(91, 89, 89); */
+    border-radius: 3px;
+    text-decoration: underline rgb(194, 85, 13) 5px;
+}
+
+.search {
+    /* border: 5px solid red; */
+    padding: 17px;
+}
+
+#search {
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+
+/* .class2 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+
+} */
+/* 
+.back-video {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    padding: 2px;
+    margin: 10px;
+} */
+
+.class1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.class2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valoinfo h1 {
+    padding: 2px;
+    margin-top: 54px;
+    text-align: center;
+    font-size: 115px;
+    color: red;
+    border: 3px solid #f0a600;
+    background-color: #000505;
+}
+
+.agent {
+    /* height: 100vh;
+    background-color: #e7e4dd;
+    padding: 2px; */
+    margin: 2px;
+    height: 100vh;
+    width: 100%;
+    /* background-color: #e7e4dd; */
+    background-image: url(images/best-agents.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* .valoinfo {
+    background-color: #e7e4dd;
+} */
+.map {
+    height: 100vh;
+    width: 100%;
+    background: url(images/lotus.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 2px;
+    padding: 2px;
+}
+
+.agent h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 90px;
+}
+
+.map h2 {
+    text-align: center;
+    color: red;
+    font-size: 90px;
+    margin-top: 13px;
+
+}
+
+.agentinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background: url(images/VALORANT_Sovaagent.jpg); */
+    /* background:no-repeat; */
+}
+
+.mapinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background: url(images/VALORANT_Sovaagent.jpg); */
+    /* background:no-repeat; */
+}
+
+.agentinfo strong {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 61px;
+    margin: 19px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.mapinfo strong {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 101px;
+    margin: 50px;
+}
+
+/* .imgagent img {
+    width: 316px;
+    height: 366px;
+    padding: 2px;
+    margin: 2px;
+} */
+
+/* .imgmap img {
+    width: 316px;
+    height: 366px;
+    padding: 2px;
+    margin: 2px;
+} */
+.abtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+}
+
+.abtn a {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 21px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    transition: 0.3s;
+    /* margin-bottom: 21px; */
+}
+
+.abtn a:hover {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: 6px solid rgb(0, 0, 0);
+    /* color: rgb(250, 5, 5); */
+}
+
+.bbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+}
+
+.bbtn a {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 21px;
+    border: 6px solid rgb(255, 254, 254);
+    border-radius: 42px;
+    transition: 0.3s;
+    /* margin-bottom: 21px; */
+}
+
+.bbtn a:hover {
+    background-color: red;
+    /* color: rgb(250, 5, 5); */
+    color: rgb(0, 0, 0);
+    border: 6px solid rgb(0, 0, 0);
+}
+
+/* weapons */
+.weapon h2 {
+    text-align: center;
+    color: red;
+    font-size: 90px;
+    margin-top: 13px;
+}
+
+.weapon {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #e7e4dd; */
+    background-image: url(images/Glitchpop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.weaponinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background: url(images/VALORANT_Sovaagent.jpg); */
+    /* background:no-repeat; */
+}
+
+.weaponinfo strong {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 48px;
+}
+
+/* gameinfo */
+.gameinfo {
+    background-color: black;
+    color: #e7e4dd;
+}
+
+.gameinfo h1 {
+    text-align: center;
+    color: red;
+    font-size: 90px;
+    padding: 10px;
+}
+
+.game img {
+    width: 100%;
+    height: 800px;
+}
+
+.game {
+    margin: 20px;
+}
+
+.gameinfo strong {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 48px;
+}
+
+.mapimg img {
+    width: 20%;
+    height: 40%;
+}
+
+.mapimg {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gm {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gm ul {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
