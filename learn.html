@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider bb</title>
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar background">
+            <div class="logo">
+                <a href="#valoinfo"><img src="css/valorant-logo-x0jet8s98hbbfi62.jpg" alt="Logo">
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#wallpaper">Wallpaper</a></li>
+            <li><a href="index.html#ranks">Ranks</a></li>
+            <li><a href="index.html#aboutus">About us</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search">
+               <!--<input type="button" id="btn" placeholder="Search">-->
+               <button class="btn" id="btn">search</button>
+            </div>
+        </nav>
+    </header>
+
+    <div id="parent-container">
+        <div class="navigation-buttons">
+            <div class="previous nav-btn"></div>
+            <div class="next nav-btn"></div>
+        </div>
+
+        <div class="slider-carousel">
+            <div class="images main">
+                <img src="agents/astra.png" alt="Agents 1" />
+                <div class="agent_name">
+                    ASTRA
+                </div>
+
+
+                <div class="abi" id="astra1">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E-NEBULA</h2>
+
+                            <p> Place Stars in Astral Form (X) ACTIVATE a Star to transform it into a Nebula (smoke).
+                                Use
+                                (F) on a Star to Dissipate it, returning the star to be placed in a new location after a
+                                delay. Dissipate briefly forms a fake Nebula at the Star’s location before returning.
+                            </p>
+
+                            <video class="e_video" controls muted autoplay loop src="abilities/astra/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q-NOVA PULSE</h2>
+                            <p>Place Stars in Astral Form (X) ACTIVATE a Star to detonate a Nova Pulse.
+                                The Nova Pulse charges
+                                briefly then strikes, concussing all players in its area.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/astra/Q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C-GRAVITY WELL</h2>
+                            <p>Place Stars in Astral Form (X) ACTIVATE a Star to form a Gravity Well. Players in the
+                                area are pulled toward the center before it explodes, making all players still trapped
+                                inside fragile.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/astra/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - ASTRAL FORM / COSMIC DIVIDE</h2>
+                            <p>ACTIVATE (X) to enter Astral Form where you can place Stars with PRIMARY FIRE. Stars can
+                                be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well. When
+                                Cosmic Divide is charged, use SECONDARY FIRE in Astral Form to begin aiming it, then
+                                PRIMARY FIRE to select two locations. An infinite Cosmic Divide connects the two points
+                                you select. Cosmic Divide blocks bullets and heavily dampens audio.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/astra/x.mp4"></video>
+
+                        </div>
+                    </div>
+                    <div>
+                        <h2>BEST OF ASTRA</h2>
+                        <p id="besttext">Having an Astra that can fire off smokes quickly from virtually any spot is
+                            vital
+                            to success on Split when rotates can happen so quickly. The final spot comes down to
+                            preference.</p>
+                        <h2>BEST MAPS FOR ASTRA</h2>
+                        <ul>
+                            <li>ASCENT</li>
+                            <li>BIND</li>
+                            <li>SPLIT</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/chamber2.png" alt="Agents 2" />
+                <div class="agent_name">
+                    CHAMBER
+                </div>
+
+                <div class="abi" id="chamber1">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - RENDEZVOUS</h2>
+
+                            <p>PLACE a teleport anchor. While on the ground and in range of the anchor, REACTIVATE to
+                                quickly teleport to the anchor. The anchor can be picked up to be REDEPLOYED.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Chamber/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - HEADHUNTER</h2>
+                            <p>ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to
+                                aim down sights.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Chamber/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - TRADEMARK</h2>
+                            <p>PLACE a trap that scans for enemies. When a visible enemy comes in range, the trap counts
+                                down and then destabilizes the terrain around them, creating a lingering field that
+                                slows players caught inside of it. The trap can be picked up to be REDEPLOYED.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Chamber/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - TOUR DE FORCE</h2>
+                            <p>ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any
+                                direct hit. Killing an enemy creates a lingering field that slows players caught inside
+                                of it.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Chamber/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/fade2.png" alt="Agents 3" />
+                <div class="agent_name">FADE</div>
+
+                <div class="abi" id="fade">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - HAUNT</h2>
+
+                            <p>Equip a nightmarish entity. FIRE to throw the orb which will plummet to the ground after
+                                a set amount of time. Upon hitting the ground, the orb will turn into a nightmarish
+                                entity that will reveal the location of enemies caught in its line of sight. Enemies can
+                                destroy this entity. RE-USE the ability to drop the projectile early in-flight.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Fade/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - SEIZE</h2>
+                            <p>Equip an orb of nightmare ink. FIRE to throw the orb which will plummet to the ground
+                                after a set amount of time. Upon hitting the ground, the ink will explode and create a
+                                zone in which enemies who are caught in it cannot escape the zone by normal means.
+                                RE-USE the ability to drop the projectile early in-flight</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Fade/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - PROWLER</h2>
+                            <p>EQUIP a Prowler. FIRE will send the Prowler out, causing it to travel in a straight line.
+                                The Prowler will lock onto any enemies or trails in their frontal vision cone and chase
+                                them, nearsighting them if it reaches them. HOLD the FIRE button to steer the Prowler in
+                                the direction of your crosshair.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Fade/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - NIGHTFALL</h2>
+                            <p>EQUIP the power of Fear. FIRE to send out a wave of nightmare energy that can traverse
+                                through walls. The energy creates a trail to the opponent as well as deafens and decays
+                                them.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Fade/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/Gekko_Dark_2.png" alt="Agents 4" />
+
+                <div class="agent_name">GEKKO</div>
+
+                <div class="abi" id="gekko">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - DIZZY</h2>
+
+                            <p>EQUIP Dizzy FIRE to send Dizzy soaring forward through the air. Dizzy charges then
+                                unleashes plasma blasts at enemies in line of sight. Enemies hit by her plasma are
+                                blinded. When Dizzy expires she reverts into a dormant globule INTERACT to reclaim the
+                                globule and gain another Dizzy charge after a short cooldown.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Gekko/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - WINGMAN</h2>
+                            <p>EQUIP Wingman FIRE to send Wingman forward seeking enemies. Wingman unleashes a
+                                concussive blast toward the first enemy he sees ALT FIRE when targeting a Spike site or
+                                planted Spike to have Wingman defuse or plant the Spike. To plant, Gekko must have the
+                                Spike in his inventory. When Wingman expires he reverts into a dormant globule INTERACT
+                                to reclaim the globule and gain another Wingman charge after a short cooldown.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Gekko/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - MOSH PIT</h2>
+                            <p>EQUIP Mosh FIRE to throw Mosh like a grenade ALT FIRE to throw underhand. Upon landing
+                                Mosh duplicates across a large area then after a short delay explodes.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Gekko/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - NIGHTFALL</h2>
+                            <p>EQUIP the power of Fear. FIRE to send out a wave of nightmare energy that can traverse
+                                through walls. The energy creates a trail to the opponent as well as deafens and decays
+                                them.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Gekko/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/harbour.png" alt="Agents 5" />
+
+                <div class="agent_name">HARBOUR</div>
+
+                <div class="abi" id="harbour">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E-HIGH TIDE</h2>
+
+                            <p>EQUIP a wall of water. FIRE to send the water forward along the ground. HOLD FIRE to
+                                guide the water in the direction of your crosshair, passing through the world, spawning
+                                a wall along the water’s path. ALT FIRE while bending to stop the water early. Players
+                                hit are SLOWED
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Harbour/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q-COVE</h2>
+                            <p>EQUIP a sphere of shielding water. FIRE to throw. ALT FIRE to underhand throw. Upon
+                                impacting the ground, spawn a destructible water shield that blocks bullets.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Harbour/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C-CASCADE</h2>
+                            <p>EQUIP a wave of water. FIRE to send the wave rolling forward and through walls. RE- USE
+                                to stop the wave. Players hit are SLOWED.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Harbour/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X-RECKONING</h2>
+                            <p>EQUIP the full power of your Artifact. FIRE to summon a geyser pool on the ground. Enemy
+                                players in the area are targeted by successive geyser strikes. Players caught within a
+                                strike are CONCUSSED.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Harbour/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/kayo.jpg" alt="Agents 6" />
+
+                <div class="agent_name">KAYO</div>
+
+                <div class="abi" id="kayo">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - ZERO/POINT</h2>
+
+                            <p>EQUIP a suppression blade. FIRE to throw. The blade sticks to the first surface it hits,
+                                winds up, and suppresses anyone in the radius of the explosion.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Kayo/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - FLASH/DRIVE</h2>
+                            <p>EQUIP a flash grenade. FIRE to throw. The flash grenade explodes after a short fuse,
+                                blinding anyone in line of sight.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Kayo/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - FRAG/MENT</h2>
+                            <p>EQUIP an explosive fragment. FIRE to throw. The fragment sticks to the floor and explodes
+                                multiple times, dealing near lethal damage at the center with each explosion.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Kayo/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X-RECKONING</h2>
+                            <p>EQUIP the full power of your Artifact. FIRE to summon a geyser pool on the ground. Enemy
+                                players in the area are targeted by successive geyser strikes. Players caught within a
+                                strike are CONCUSSED.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Kayo/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="images">
+                <img src="agents/KillJoy_Wallpapers_blue1.jpg" alt="Agents 7" />
+
+                <div class="agent_name">KILLJOY</div>
+
+                <div class="abi" id="killjoy">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - TURRET</h2>
+
+                            <p>EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD
+                                EQUIP to recall the deployed turret.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Killjoy/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - ALARMBOT</h2>
+                            <p>EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range.
+                                After reaching its target, the bot explodes, applying Vulernable. HOLD EQUIP to recall a
+                                deployed bot.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Killjoy/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - NANOSWARM</h2>
+                            <p>EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes
+                                covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Killjoy/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - LOCKDOWN</h2>
+                            <p>EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device
+                                Detains all enemies caught in the radius. The device can be destroyed by enemies.</p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Killjoy/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="images">
+                <img src="agents/neon.jpg" alt="Agents 8" />
+
+                <div class="agent_name">NEON</div>
+
+                <div class="abi" id="neon">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - HIGH GEAR</h2>
+
+                            <p>INSTANTLY channel Neon’s power for increased speed. When charged, ALT FIRE to trigger an
+                                electric slide. Slide charge resets every two kills.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/Neon/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - RELAY BOLT</h2>
+                            <p>INSTANTLY throw an energy bolt that bounces once. Upon hitting each surface, the bolt
+                                electrifies the ground below with a concussive blast.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/Neon/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - FAST LANE</h2>
+                            <p>FIRE two energy lines forward on the ground that extend a short distance or until they
+                                hit a surface. The lines rise into walls of static electricity that block vision and
+                                damage enemies passing through them.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/Neon/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - OVERDRIVE</h2>
+                            <p>Unleash Neon’s full power and speed for a short duration. FIRE to channel the power into
+                                a deadly lightning beam with high movement accuracy. The duration resets on each kill.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/Neon/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/Skye_KeyArt_PR_2.jpg" alt="Agents 9" />
+
+                <div class="agent_name">SKYE</div>
+
+                <div class="abi" id="skye">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - GUIDING LIGHT</h2>
+
+                            <p>EQUIP a hawk trinket. FIRE to send it forward. HOLD FIRE to guide the hawk in the
+                                direction of your crosshair. RE-USE while the hawk is in flight to transform it into a
+                                flash that plays a hit confirm if an enemy was within range and line of sight.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/skye/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - TRAILBLAZER</h2>
+                            <p>EQUIP a Tasmanian tiger trinket. FIRE to send out and take control of the predator. While
+                                in control, FIRE to leap forward, exploding in a concussive blast and damaging directly
+                                hit enemies.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/skye/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - REGROWTH</h2>
+                            <p>EQUIP a healing trinket. HOLD FIRE to channel, healing allies in range and line of sight.
+                                Can be reused until her healing pool is depleted. Skye cannot heal herself.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/skye/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - SEEKERS</h2>
+                            <p>EQUIP a Seeker trinket. FIRE to send out three Seekers to track down the three closest
+                                enemies. If a Seeker reaches its target, it nearsights them.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/skye/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Breach_Dark.jpg" alt="Agents 10" />
+
+                <div class="agent_name">BREACH</div>
+
+                <div class="abi" id="breach">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - FAULT LINE</h2>
+
+                            <p>EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake,
+                                dazing all players in its zone and in a line up to the zone.
+
+                                <video class="e_video" autoplay controls muted loop src="abilities/breach/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - FLASHPOINT</h2>
+                            <p>EQUIP a blinding charge. FIRE the charge to set fast-acting burst through the wall. The
+                                charge detonates to blind all players looking at it.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/breach/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - AFTERSHOCK</h2>
+                            <p>EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The
+                                burst does heavy damage to anyone caught in its area.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/breach/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - ROLLING THUNDER</h2>
+                            <p>EQUIP a seismic charge. FIRE to send a cascading quake through all terrain in a large
+                                cone. The quake dazes and knocks up anyone caught in it.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/breach/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Brimm_Dark.jpg" alt="Agents 11" />
+
+                <div class="agent_name">BRIMSTOME</div>
+
+                <div class="abi" id="brim">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - SKY SMOKE</h2>
+
+                            <p>EQUIP a tactical map. FIRE to set locations where Brimstone’s smoke clouds will land.
+                                ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the
+                                selected area.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/brimstone/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - INCENDIARY</h2>
+                            <p>EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes
+                                to a rest on the floor, creating a lingering fire zone that damages players within the
+                                zone.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/brimstone/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - STIM BEACON</h2>
+                            <p>EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing,
+                                the stim beacon will create a field that grants players RapidFire.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/brimstone/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - ORBITAL STRIKE</h2>
+                            <p>EQUIP a tactical map. FIRE to launch a lingering orbital strike laser at the selected
+                                location, dealing high damage-over-time to players caught in the selected area.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/brimstone/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="images">
+                <img src="agents/VALORANT_Cypher_Dark.jpg" alt="Agents 12" />
+
+                <div class="agent_name">CYPHER</div>
+
+                <div class="abi" id="cypher">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - SPYCAM</h2>
+
+                            <p>EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to
+                                take control of the camera’s view. While in control of the camera, FIRE to shoot a
+                                marking dart. This dart will reveal the location of any player struck by the dart.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/cypher/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - CYBER CAGE</h2>
+                            <p>INSTANTLY toss the cyber cage in front of Cypher. Activate to create a zone that blocks
+                                vision and slows enemies who pass through it.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/cypher/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - TRAPWIRE</h2>
+                            <p>EQUIP a trapwire. FIRE to place a destructible and covert tripwire at the targeted
+                                location creating a line that spans between the placed location and the wall opposite.
+                                Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short
+                                period if they do not destroy the device in time. This ability can be picked up to be
+                                REDEPLOYED.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/cypher/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - NEURAL THEFT</h2>
+                            <p>INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all
+                                living enemy players.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/cypher/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Jett_Red.jpg" alt="Agents 13" />
+
+                <div class="agent_name">JETT</div>
+
+                <div class="abi" id="jett">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - TAILWIND</h2>
+
+                            <p>ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in
+                                the direction she is moving. If Jett is standing still, she propels forward
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/jett/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - UPDRAFT</h2>
+                            <p>INSTANTLY propel Jett high into the air.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/jett/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - CLOUDBURST</h2>
+                            <p>INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact
+                                with a surface. HOLD the ability key to curve the smoke in the direction of your
+                                crosshair.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/jett/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - BLADE STORM</h2>
+                            <p>EQUIP a set of highly accurate knives that recharge on killing an opponent. FIRE to throw
+                                a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your
+                                target.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/jett/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Omen_Dark.jpg" alt="Agents 14" />
+
+                <div class="agent_name">OMEN</div>
+
+                <div class="abi" id="omen">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - DARK COVER</h2>
+
+                            <p>EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the
+                                marked location, creating a long-lasting shadow sphere that blocks vision. HOLD
+                                ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key
+                                with targeting to move the marker closer.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/omen/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - PARANOIA</h2>
+                            <p>INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all
+                                players it touches. This projectile can pass straight through walls.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/omen/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - SHROUDED STEP</h2>
+                            <p>EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel,
+                                then teleport to the marked location.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/omen/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - FROM THE SHADOWS</h2>
+                            <p>EQUIP a tactical map. FIRE to begin teleporting to the selected location. While
+                                teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his
+                                teleport.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/omen/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Phoenix_Dark.jpg" alt="Agents 15" />
+
+                <div class="agent_name">PHEONIX</div>
+
+                <div class="abi" id="phoenix">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - HOT HANDS</h2>
+
+                            <p>EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or
+                                upon hitting the ground, creating a lingering fire zone that damages enemies.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/pheonix/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - CURVEBALL</h2>
+                            <p>EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to
+                                curve the flare orb to the left, detonating and blinding any player who sees the orb.
+                                ALTERNATE FIRE to curve the flare orb to the right.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/pheonix/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - BLAZE</h2>
+                            <p>EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of
+                                fire that blocks vision and damages players passing through it. HOLD FIRE to bend the
+                                wall in the direction of your crosshair.
+                            </p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/pheonix/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - RUN IT BACK</h2>
+                            <p>INSTANTLY place a marker at Phoenix’s location. While this ability is active, dying or
+                                allowing the timer to expire will end this ability and bring Phoenix back to this
+                                location with full health.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/pheonix/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="images">
+                <img src="agents/VALORANT_Raze_Dark.jpg" alt="Agents 16" />
+
+                <div class="agent_name">RAZE</div>
+
+                <div class="abi" id="raze">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>Q - BLAST PACK</h2>
+
+                            <p>INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after
+                                deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this
+                                ability, but will still take fall damage if launched up far enough.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/raze/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>E - PAINT SHELLS</h2>
+                            <p>EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates
+                                sub-munitions, each doing damage to anyone in their range.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/raze/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - BOOM BOT</h2>
+                            <p>EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on
+                                the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal
+                                cone and chase them, exploding for heavy damage if it reaches them.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/raze/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - SHOWSTOPPER</h2>
+                            <p>EQUIP a rocket launcher. FIRE shoots a rocket that does massive area damage on contact
+                                with anything.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/raze/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Reyna_Dark_2.jpg" alt="Agents 17" />
+
+                <div class="agent_name">REYNA</div>
+
+                <div class="abi" id="reyna">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - DISMISS</h2>
+
+                            <p>INSTANTLY consume a nearby soul orb, becoming intangible for a short duration. If EMPRESS
+                                is active, also become invisible.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/reyna/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - DEVOUR</h2>
+                            <p>Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds. INSTANTLY consume a
+                                nearby soul orb, rapidly healing for a short duration. Health gained through this skill
+                                exceeding 100 will decay over time. If EMPRESS is active, this skill will automatically
+                                cast and not consume the orb.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/reyna/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - LEER</h2>
+                            <p>EQUIP an ethereal destructible eye. ACTIVATE to cast the eye a short distance forward.
+                                The eye will Nearsight all enemies who look at it.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/reyna/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - EMPRESS</h2>
+                            <p>INSTANTLY enter a frenzy, increasing firing speed, equip and reload speed dramatically.
+                                Scoring a kill renews the duration.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/reyna/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Sage_dark.jpg" alt="Agents 18" />
+
+                <div class="agent_name">SAGE</div>
+
+                <div class="abi" id="sage">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - HEALING ORB</h2>
+
+                            <p>EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a
+                                heal-over-time on them. ALT FIRE while Sage is damaged to activate a self
+                                heal-over-time.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/sage/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - SLOW ORB</h2>
+                            <p>EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing,
+                                creating a lingering field that slows players caught inside of it.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/sage/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - BARRIER ORB</h2>
+                            <p>EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/sage/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - RESURRECTION</h2>
+                            <p>EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin
+                                resurrecting them. After a brief channel, the ally will be brought back to life with
+                                full health.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/sage/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_Sova_Dark.jpg" alt="Agents 19" />
+
+                <div class="agent_name">SOVA</div>
+
+                <div class="abi" id="sova">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - RECON BOLT</h2>
+
+                            <p>EQUIP a bow with a recon bolt. FIRE to send the recon bolt forward, activating upon
+                                collision and revealing the location of nearby enemies caught in the line of sight of
+                                the bolt. HOLD FIRE to extend the range of the projectile. ALTERNATE FIRE to add up to
+                                two bounces to this arrow.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/sova/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - SHOCK BOLT</h2>
+                            <p>EQUIP a bow with a shock bolt. FIRE to send the explosive forward, detonating upon
+                                collision and damaging players nearby. HOLD FIRE to extend the range of the projectile.
+                                ALTERNATE FIRE to add up to two bounces to this arrow.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/sova/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - OWL DRONE</h2>
+                            <p>EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in
+                                control of the drone, FIRE to shoot a marking dart. This dart will reveal the location
+                                of any player struck by the dart.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/sova/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - HUNTER’S FURY</h2>
+                            <p>EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release an energy
+                                blast in a line in front of Sova, dealing damage and revealing the location of enemies
+                                caught in the line. This ability can be RE-USED up to two more times while the ability
+                                timer is active.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/sova/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/VALORANT_VIPER_2.jpg" alt="Agents 20" />
+
+                <div class="agent_name">VIPER</div>
+
+                <div class="abi" id="viper">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - TOXIC SCREEN</h2>
+
+                            <p>EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the
+                                ability to create a tall wall of toxic gas at the cost of fuel. This ability can be
+                                RE-USED more than once.
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/viper/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - POISON CLOUD</h2>
+                            <p>EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the
+                                round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability
+                                can be RE-USED more than once and can be picked up to be REDEPLOYED.</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/viper/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - SNAKE BITE</h2>
+                            <p>EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the
+                                floor, creating a lingering chemical zone that damages and slows enemies.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/viper/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - VIPER’S PIT</h2>
+                            <p>EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper,
+                                creating a large cloud that reduces the vision range and maximum health of players
+                                inside of it.
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/viper/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="agents/yoru.jpg" alt="Agents 21" />
+
+                <div class="agent_name">YORU</div>
+
+                <div class="abi" id="yoru">
+                    <div class="e">
+                        <div class="astra">
+                            <h2>E - GATECRASH</h2>
+
+                            <p>EQUIP a rift tether FIRE to send the tether forward ALT FIRE to place a stationary tether
+                                ACTIVATE to teleport to the tether's location USE to trigger a fake teleport
+                            </p>
+
+                            <video class="e_video" autoplay controls muted loop src="abilities/yoru/e.mp4"></video>
+                        </div>
+                        <div class="q">
+                            <hr>
+                            <h2>Q - BLINDSIDE</h2>
+                            <p>EQUIP to rip an unstable dimensional fragment from reality. FIRE to throw the fragment,
+                                activating a flash that winds up once it collides with a hard surface in the world</p>
+
+                            <video class="q_video" autoplay controls muted loop src="abilities/yoru/q.mp4"></video>
+                            <br>
+
+                        </div>
+                        <div class="c">
+                            <hr>
+                            <h2>C - FAKEOUT</h2>
+                            <p>EQUIP an echo that transforms into a mirror image of Yoru when activated FIRE to
+                                instantly activate the mirror image and send it forward ALT FIRE to place an inactive
+                                echo USE to transform an inactive echo into a mirror image and send it forward. Mirror
+                                images explode in a blinding flash when destroyed by enemies.</p>
+
+                            <video class="c_video" autoplay controls muted loop src="abilities/yoru/c.mp4"></video>
+
+                        </div>
+
+                        <div class="x">
+                            <hr>
+                            <h2>X - DIMENSIONAL DRIFT</h2>
+                            <p>EQUIP a mask that can see between dimensions. FIRE to drift into Yoru's dimension, unable
+                                to be affected or seen by enemies from the outside
+                            </p>
+
+                            <video class="x_video" autoplay controls muted loop src="abilities/yoru/x.mp4"></video>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="jss/slider.js">
+    </script>
+
+
+</body>
+
+</html>
