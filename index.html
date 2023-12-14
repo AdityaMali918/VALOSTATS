@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valostats</title>
+  <link rel="stylesheet" href="val.css">
+</head>
+
+<body>
+    <nav class="navbar background h-nav">
+        <div class="logo">
+            <a href="#valoinfo"><img src="images/valorant-logo-x0jet8s98hbbfi62.jpg" alt="Logo">
+        </div>
+        <ul class="nav-list v-class">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#wallpaper">Wallpaper</a></li>
+            <li><a href="#ranks">Ranks</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- <div class="search v-class" >
+            <input type="text" name="search" id="search" placeholder="search">
+            <button class="btn">search</button>
+        </div> -->
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="home" id="home" >
+        <video class="back-video" autoplay loop muted plays-inline>
+            <source src="images/valoedited.mp4" type="video/mp4">
+        </video>
+        <!-- <div class="quote">A Game for the Next Generation of Shooter Players</div> -->
+        <div class="vd">
+            <h2></h2>
+            <a href="valoinfo.html">VALORANT</a>
+            <h1>A Game for the Next Generation of Shooter Players</h1>
+        </div>
+    </section>
+
+    <section class="wallpaper" id="wallpaper">
+        <h1 class="title">WALLPAPER</h1>
+
+        <div class="box">
+            <div class="wall">
+                We have HD valorant images
+                Download & use the best VALORANT wallpapers on your phone, desktop background & more.<br><br><br>
+                <a href="wallpaper/wallpaper.html" class="btn">Wallpaper</a>
+            </div>
+
+            <div class="img"><img src="images/Valorant-Wallpaper-HD.jpg" alt="wallpaper"></div>
+        </div>
+    </section>
+
+    <section class="ranks" id="ranks">
+        <h1 class="head title">RANK</h1>
+        <p>
+            If you love FPS multiplayer games and have a competitive streak a mile wide, it’s time to jump into
+            Valorant’s competitive ranked mode. This 5v5 FPS shooter game had everything a gamer could want when it
+            first launched, but now Riot Games has made it even better.
+
+        </p>
+        <div class="rnkimg"><img src="images/basic ranked infographic.png" alt="rankimage"></div>
+        <div class="rankinfo">
+            <h1 >RANK SYSTEM</h1>
+            <p>Valorant’s ranking system is a bit confusing, especially for newcomers. The system is like other
+                multiplayer ranking systems with some key differences that are uniquely Riot Games.<br>
+
+                First, you can’t just jump into competitive/ranked mode on a whim, and you won’t get placed in unfair
+                matches due to Riot Games’ unique Rank Ratings (RR) and Matchmaking Rankings (MMR) systems.Second, the
+                Leaderboards omit how much you play to keep it fair. A person with more kills and wins that plays less
+                still gets their Leaderboard spot when someone else plays more, has more kills/wins, but has less of a
+                kill/win ratio.<br>
+                <br> Player must reach account level 20 to access competitive/ranked mode games. First five unranked
+                game
+                to place rank according to your performance. Your rank reset each Act- Play 5 placement eachnew epsiode
+                and
+                1 placement for Act 2 and 3.<br>
+                <br>
+                The first eight ranks have three tiers you must achieve to advance to the next rank. The last rank,
+                Radiant, only has one tier.
+                Most players start at the Iron rank, although their performance during placement matches can put them in
+                a higher ranking and tier.
+                As there performance increases , they get promoted to next rank.
+
+            </p>
+        </div>
+    </section>
+
+    <section class="aboutus" id="aboutus">
+        <div class="aditya">
+            NAME : Aditya Mali
+        </div>
+        <div class="durvank">
+            NAME : Durvank Jagtap
+        </div>
+        <div class="ujjwal">
+            NAME : Ujjwal Aglawe
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="title">Contact</h1>
+        <div class="all">
+            <div class="imga">
+                <div><a href=""><img src="images/download.png" alt=""></a></div>
+                <div><a href=""><img src="images/images.png" alt=""></a></div>
+                <div><a href=""><img src="images/gmail.png" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+<script>
+    burger=document.querySelector('.burger')
+    navbar=document.querySelector('.navbar')
+    navList=document.querySelector('.nav-list')
+    search=document.querySelector('.search')
+    burger.addEventListener('click',()=>{
+        search.classList.toggle('v-class');
+        navList.classList.toggle('v-class');
+        navbar.classList.toggle('h-nav');
+    })
+    const search=document.getElementById('search');
+    search.addEventListener('keyup',e=>{
+        let currentvalue=e.target.value.toLowerCase();
+        let page=document.querySelectorAll('h1.title');
+        page.forEach(pg=>{
+            if(pg.textContent.toLocaleLowerCase().includes(currentvalue)){
+             pg.parentNode.parentNode.style.display='block';
+            }
+            else{
+              pg.parentNode.parentNode.style.display='none';
+            }
+        });
+    });
+</script>
+</body>
+
+</html>
